@@ -50,12 +50,16 @@
         <label for="email">
           Email address
         </label>
+        <div id="errorDiv">Valid email required</div>
         <input 
           type="email" 
           id="email" 
           placeholder="email@company.com"
         >
-        <button>
+        <button 
+          id="subscribeButton"
+          onclick="checkInput()"
+        >
           Subscribe to monthly newsletter
         </button>
       </div>
@@ -66,5 +70,6 @@
 
   <!-- Sign-up form end -->
   </div>
+  <script src="main.js"></script>
 </body>
 </html>

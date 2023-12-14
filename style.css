@@ -51,6 +51,7 @@ svg {
 }
 
 .email-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   font-size: 10px;
@@ -96,4 +97,22 @@ button {
 
 button:hover {
   background: linear-gradient( 90deg, rgb(245, 82, 109) 0%, hsl(4, 100%, 67%) 60%, hsl(22, 86%, 54%) 100%);
+}
+
+.error {
+  border: 1px solid hsl(4, 100%, 67%);
+  background-color: hsl(4, 100%, 67%, 0.15);
+}
+
+.error::placeholder {
+  color: hsl(4, 100%, 67%);
+}
+
+#errorDiv {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  font-size: .8rem;
+  color: hsl(4, 100%, 67%);
 }

@@ -116,3 +116,36 @@ button:hover {
   font-size: .8rem;
   color: hsl(4, 100%, 67%);
 }
+
+@media (min-width: 1023px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .sign-up-form {
+    height: 80%;
+    width: 60%;
+  }
+
+  #desktopImage {
+    height: 100%;
+    width: auto;
+  }
+
+}

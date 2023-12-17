@@ -177,7 +177,7 @@ button:hover {
     width: 85vw;
   }
 
-  @media (min-width: 431px) {
+  @media (min-width: 600px) {
     .successState body {
       display: flex;
       justify-content: center;
@@ -186,7 +186,7 @@ button:hover {
       margin: 0;
     }
     .successState main {
-      margin: 30vh 0;
+      margin: 15vh 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -198,15 +198,12 @@ button:hover {
     }
 
     .successState #main h1 {
-      font-size: 3.5rem;
-      line-height: 3.5rem;
       width: 90%;
     }
 
     .successState #successP {
      width: 90%;
      margin-bottom: 5vh;
-     font-size: 1.2rem;
     }
 
     .successState #main button {

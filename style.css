@@ -28,7 +28,7 @@ main {
   flex-direction: column;
   justify-content: center;
   font-size: 1.1rem;
-  padding: 1rem 0;
+  padding: 0 0 1rem;
 }
 
 h1 {
@@ -149,3 +149,69 @@ button:hover {
   }
 
 }
+
+/*success state start*/
+  .successState main {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .successState #successImg {
+    margin-left: 10px;
+    height: 70px;
+  }
+
+  .successState #main h1 {
+    margin-left: 10px;
+  }
+
+  .successState #successP {
+    margin-bottom: 35vh;
+    margin-left: 10px;
+    width: 85vw;
+    font-size: 1.1rem;
+  }
+
+  .successState #main button {
+    width: 85vw;
+  }
+
+  @media (min-width: 431px) {
+    .successState body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .successState main {
+      margin: 30vh 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50vw;
+      height: auto;
+      overflow: hidden;
+      padding: 40px;
+      border-radius: 30px;
+    }
+
+    .successState #main h1 {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      width: 90%;
+    }
+
+    .successState #successP {
+     width: 90%;
+     margin-bottom: 5vh;
+     font-size: 1.2rem;
+    }
+
+    .successState #main button {
+      width: 90%;
+      font-size: 1.2rem;
+    }
+  }
+/*end*/

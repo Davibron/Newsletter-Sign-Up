@@ -16,7 +16,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  width: max-content;
+  width: 80%;
   height: 100vh;
   overflow-x: auto;
   background-color: white;
@@ -46,7 +46,7 @@ span {
   padding: .5rem 2.8rem .5rem 1rem;
 }
 
-svg {
+.icon-list {
   padding-right: 1rem;
 }
 
